@@ -14,7 +14,7 @@ function App() {
 
     const controller = new AbortController(); //i have doubts in controller part
 
-//imediately invoked functions(ifi) to use  async-await inside hooks
+//imediately invoked functions(ife) to use  async-await inside hooks
     ;(async()=>{        //use ; before function definition to delete previous code if any. It's a good practice to use it before ifi
       try {
         setLoading(true);//first the api will be loaded
